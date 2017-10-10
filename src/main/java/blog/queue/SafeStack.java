@@ -1,4 +1,4 @@
-package queue;
+package blog.queue;
 
 public class SafeStack implements StackInterface {
 	private int top = 0;
@@ -13,14 +13,14 @@ public class SafeStack implements StackInterface {
 				try {
 					wait();
 				} catch (InterruptedException e) {
-					// ºöÂÔ //4
+					// ï¿½ï¿½ï¿½ï¿½ //4
 				}
 			}
-			System.out.print("µ¯³ö");
+			System.out.print("ï¿½ï¿½ï¿½ï¿½");
 			top--;
 			int[] test = { values[top], top };
 			dataAvailable = false;
-			// »½ÐÑÕýÔÚµÈ´ýÑ¹ÈëÊý¾ÝµÄÏß³Ì
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÈ´ï¿½Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ß³ï¿½
 			notifyAll();
 			return test;
 		}
@@ -32,15 +32,15 @@ public class SafeStack implements StackInterface {
 				try {
 					wait();
 				} catch (InterruptedException e) {
-					// ºöÂÔ //2
+					// ï¿½ï¿½ï¿½ï¿½ //2
 				}
 			}
 			values[top] = n;
-			System.out.println("Ñ¹ÈëÊý×Ö" + n + "²½Öè1Íê³É");
+			System.out.println("Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + n + "ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½");
 			top++;
 			dataAvailable = true;
 			notifyAll();
-			System.out.println("Ñ¹ÈëÊý×ÖÍê³É");
+			System.out.println("Ñ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}
 	}
 }

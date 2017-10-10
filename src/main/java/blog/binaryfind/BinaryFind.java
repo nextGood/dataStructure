@@ -1,4 +1,4 @@
-package binaryfind;
+package blog.binaryfind;
 
 /**
  * 二分搜索法

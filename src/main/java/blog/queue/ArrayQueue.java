@@ -1,4 +1,4 @@
-package queue;
+package blog.queue;
 
 /**
  * Java : 数组实现“队列”，只能存储int数据。

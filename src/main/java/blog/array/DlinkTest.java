@@ -1,4 +1,4 @@
-package array;
+package blog.array;
 
 /**
  * Java 实现的双向链表。

@@ -1,4 +1,4 @@
-package stack;
+package blog.stack;
 /**
  * Java : 数组实现的栈，能存储任意类型的数据
  * 介绍：http://www.cnblogs.com/skywang12345/p/3562239.html

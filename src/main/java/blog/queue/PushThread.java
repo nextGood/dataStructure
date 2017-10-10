@@ -1,4 +1,4 @@
-package queue;
+package blog.queue;
 
 public class PushThread implements Runnable {
 

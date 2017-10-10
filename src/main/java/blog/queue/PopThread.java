@@ -1,4 +1,4 @@
-package queue;
+package blog.queue;
 
 public class PopThread implements Runnable {
 	private StackInterface s;

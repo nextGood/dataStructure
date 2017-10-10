@@ -1,4 +1,4 @@
-package tree;
+package blog.tree;
 
 /**
  * Java 语言: 二叉查找树

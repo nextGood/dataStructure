@@ -1,4 +1,4 @@
-package sort;
+package blog.sort;
 
 /**
  * 冒泡排序
