@@ -30,12 +30,13 @@ public class BSTreeTest {
 
         System.out.print("\n== 后序遍历: ");
         tree.postOrder();
-        System.out.println();
 
         System.out.println("== 最小值: " + tree.minimum());
         System.out.println("== 最大值: " + tree.maximum());
         System.out.println("== 树的详细信息: ");
         tree.print();
+
+        System.out.println("查询特定节点：" + tree.search(6).getKey());
 
         System.out.print("\n== 删除根节点: " + arr[3]);
         tree.remove(arr[3]);

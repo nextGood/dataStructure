@@ -1,8 +1,10 @@
 package blog.sort;
 
 /**
- * 冒泡排序
- * Created by nextGood on 2017/9/29.
+ * 描述：冒泡排序
+ * 介绍：http://www.cnblogs.com/skywang12345/p/3596232.html
+ * 时间：2017/09/29 14:46
+ * 码者: Administrator
  */
 public class BubbleSort {
 
